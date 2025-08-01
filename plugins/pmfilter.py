@@ -1763,7 +1763,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://graph.org/file/7519d226226bec1090db7.jpg")
+            InputMediaPhoto("https://graph.org/file/43a95b7ce7996be6a5555-e6f3315a0654d6ea4c.jpg")
         )
         await query.message.edit_text(
             text=script.UPI_TXT.format(query.from_user.mention, OWNER_UPI_ID),
@@ -1781,7 +1781,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://graph.org/file/7519d226226bec1090db7.jpg")
+            InputMediaPhoto("https://graph.org/file/43a95b7ce7996be6a5555-e6f3315a0654d6ea4c.jpg")
         )
         await query.message.edit_text(
             text=script.QR_TXT.format(query.from_user.mention, QR_CODE),
@@ -1852,7 +1852,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://graph.org/file/7519d226226bec1090db7.jpg")
+            InputMediaPhoto("https://graph.org/file/43a95b7ce7996be6a5555-e6f3315a0654d6ea4c.jpg")
         )
         await query.message.edit_text(
             text=script.PLAN_TXT.format(query.from_user.mention),
