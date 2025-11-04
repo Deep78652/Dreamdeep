@@ -1716,7 +1716,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://graph.org/file/43a95b7ce7996be6a5555-e6f3315a0654d6ea4c.jpg")
+            InputMediaPhoto("https://iili.io/KQ4BhIS.md.jpg")
         )
         await query.message.edit_text(
             text=script.PURCHASE_TXT.format(query.from_user.mention),
